@@ -175,7 +175,7 @@ function App() {
                 <div className="relative pl-6 border-l-2 border-blue-100">
                   <div className="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-blue-500" />
                   <h4 className="font-semibold text-gray-800">INDRAPRASTA UNIVERSITY (UNINDRA)</h4>
-                  <p className="text-gray-600">Informatics Engineering | 2020 - 2025</p>
+                  <p className="text-gray-600">Informatics Engineering | 2020 - 2024</p>
                 </div>
                 
                 <div className="relative pl-6 border-l-2 border-blue-100">
