@@ -119,7 +119,7 @@ function App() {
       <div className="bg-gradient-to-br from-blue-900 to-indigo-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920')] opacity-10 bg-cover bg-center" />
         <div className="relative">
-          <div className="container mx-auto px-4 py-20 max-w-5xl">
+          <div className="container mx-auto px-4 py-20 max-w-7xl">
             <div className="flex flex-col items-center text-center">
               <div className="w-28 h-28 rounded-full overflow-hidden ring-4 ring-white/20 shadow-2xl mb-6">
                 <img 
@@ -139,7 +139,7 @@ function App() {
                   { icon: Mail, href: "mailto:hamimistimewa@gmail.com", label: "Email" },
                   { icon: Linkedin, href: "https://linkedin.com/in/nurhamimistimewa", label: "LinkedIn" },
                   { icon: Globe, href: "https://syslab.id", label: "Blog" },
-                  { icon: Phone, href: "https://wa.me/6281225787990", label: "Contact" }
+                  { icon: Phone, href: "https://wa.me/6281225787990", label: "Contact" },
                 ].map((item) => (
                   <a
                     key={item.label}
@@ -156,7 +156,7 @@ function App() {
         </div>
       </div>
 
-      <main className="container mx-auto px-4 max-w-5xl py-12 -mt-8">
+      <main className="container mx-auto px-4 max-w-7xl py-12 -mt-8">
         <div className="grid gap-6 md:grid-cols-2">
           {/* Left Column */}
           <div className="space-y-6">
@@ -426,7 +426,7 @@ function App() {
       </main>
 
       <footer className="bg-gradient-to-br from-gray-900 to-blue-900 text-white py-8 mt-12">
-        <div className="container mx-auto px-4 max-w-5xl text-center">
+        <div className="container mx-auto px-4 max-w-7xl text-center">
           <p className="text-blue-200">© 2024 Nur Hamim. All rights reserved.</p>
         </div>
       </footer>
